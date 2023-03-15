@@ -39,17 +39,25 @@ function LandingPage() {
         </div>
         <img src={WaveOne} className="w-[100%]" alt="WaveOne"></img>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
-        <div className="bg-gray-600 h-[500px] p-4">
+        <div className="bg-gray-200 h-[500px] p-4">
           <div className="mt-[51px] ml-[218px]">
             <img src={Welcome} alt="WelcomeImg" className="w-[100%]"></img>
           </div>
         </div>
 
-        <div className="bg-gray-600 h-[500px] p-4">
-          <div className="mt-[37px] ml-[36px] mr-[384px]">
-            <span className="">
+        <div className="bg-gray-200 h-[500px] p-4">
+          <div className="mt-[37px] ml-[36px] mr-[384px] xl:w-[315px] xl:h-[65px]">
+            <p className="bg-gradient-to-r from-pink-500 to-indigo-800 bg-clip-text text-transparent font-[poppins] text-[28px] font-[700] leading-[65px]">
               Welcome to CoinBase
-            </span>
+            </p>
+          </div>
+          <div className="mt-[36px] ml-[36px] mr-[157px] xl:w-[542px] xl:h-[268px]">
+            <p className="font-[poppins] text-[16px] font-[400] leading-[40px] left-53.4% right-10.47% text-[#333333]">
+            We have the best rates . Simply start your exchange right now. Sign up for our Affiliate program and earn commission from each exchange. The earnings are credited in your account instantly and can be withdrawn right away. Also note some exchange directions are hidden for unregistered user. To ensure to have access to all our exchange directions and benefits kindly sign up and verify your identity.
+            </p>
+          </div>
+          <div className="mt-[35px] ml-[36px] mr-[541.81px] xl:w-[157px] xl-h[54px]">
+            <button></button>
           </div>
         </div>
       </div>
