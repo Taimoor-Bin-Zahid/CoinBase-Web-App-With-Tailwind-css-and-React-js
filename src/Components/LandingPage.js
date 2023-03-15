@@ -57,7 +57,9 @@ function LandingPage() {
             </p>
           </div>
           <div className="mt-[35px] ml-[36px] mr-[541.81px] xl:w-[157px] xl-h[54px]">
-            <button></button>
+            <button className="rounded-full bg-gradient-to-r from-pink-500 to-indigo-800 text-[white] px-[24px] py-[8px]">
+              DISCOVER
+            </button>
           </div>
         </div>
       </div>
